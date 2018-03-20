@@ -17,7 +17,7 @@ Go to the cloudshell accessing this [URL](https://console.cloud.google.com/cloud
 </code>
 git version 2.9.2
 
-# Configure your Git username and email using the following commands, replacing Jino's name with your own. These details will be associated with any commits that you create:
+# Configure your Git username and email using the following commands, replacing my name with your own. These details will be associated with any commits that you create:
 <code>
 	$ git config --global user.name "Jino Jossy"
 	$ git config --global user.email "jinojossy93@gmail.com"
@@ -45,18 +45,20 @@ Next step is going to the Excercise folder:
 
 And this can be deployed to Internet by doing following commands
 
-#Setting project. Replace PROJECT_ID with your ID.
+# Setting project. 
+Replace PROJECT_ID with your ID.
 <code>
 	$ gcloud config set project PROJECT_ID
 </code>
 
-#Deploying project. Replace VERSION with the version you need it can be number or string or both combined.
+# Deploying project. 
+Replace VERSION with the version you need it can be number or string or both combined.
 <code>
 	$ gcloud app deploy . --version=VERSION
 </code>
 
-# Excercise 2. Do the same as above. It's a guest book application where the guest input is being saved to Database.
-
+# Excercise 2. 
+Do the same as above. It's a guest book application where the guest input is being saved to Database.
 <code>
 	$ cd Workshop/excercise_1/
 </code>
