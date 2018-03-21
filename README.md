@@ -17,7 +17,8 @@ Go to the cloudshell accessing this [URL](https://console.cloud.google.com/cloud
 </code>
 git version 2.9.2
 
-# Configure your Git username and email using the following commands, replacing my name with your own. These details will be associated with any commits that you create:
+# Git Setup
+Configure your Git username and email using the following commands, replacing my name with your own. These details will be associated with any commits that you create:
 <code>
 	$ git config --global user.name "Jino Jossy"
 	$ git config --global user.email "jinojossy93@gmail.com"
@@ -25,7 +26,7 @@ git version 2.9.2
 
 Now the next step is cloning my repository to pull the code changes for the excercise:
 
-# You can do that running this command in terminal.
+# Clone this repository
 <code>
 	$ git clone https://github.com/jinojossy93/Workshop.git
 </code>
@@ -38,7 +39,8 @@ Next step is going to the Excercise folder:
 	$ cd Workshop/excercise_1/
 </code>
 
-# Now you are in the first excercise. You can now run the development server by using the following command
+# Development Server
+Now you are in the first excercise. You can now run the development server by using the following command
 <code>
 	$ dev_appserver.py .
 </code>
@@ -57,7 +59,7 @@ Replace VERSION with the version you need it can be number or string or both com
 	$ gcloud app deploy . --version=VERSION
 </code>
 
-# Excercise 2. 
+# Excercise 2
 Do the same as above. It's a guest book application where the guest input is being saved to Database.
 <code>
 	$ cd Workshop/excercise_1/
